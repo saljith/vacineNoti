@@ -14,6 +14,7 @@ while(1):
         x="https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode="+pincode[i]+"&date="+d1+""
         data=requests.get(x,headers=headers)
         results=json.loads(data.text)
+        print(results)
         count=results["centers"]
         count1=count[0]
         count2=count1["sessions"]
