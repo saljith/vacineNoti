@@ -50,5 +50,5 @@ while(1):
              
         
 
-    time.sleep(20)
+    time.sleep(100)
 
