@@ -3,7 +3,7 @@ import json
 from datetime import date
 import time
 pincode=["683515","683513","682501"]
-headers ={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36'}
+headers ={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36'}
 while(1):
     # welcome="https://api.telegram.org/bot1836438637:AAGBm8Eeqz3mB_v9aKFys9aOFZK7pE2k8Bw/sendmessage?chat_id=-577653573&text=realtime vaccine updates for kerala"
     # requests.get(welcome)
@@ -50,5 +50,5 @@ while(1):
              
         
 
-    time.sleep(100)
+    time.sleep(150)
 
